@@ -15,7 +15,7 @@ spec:
       containers:
         - name: mike-api
         #This is going to be the path to the image you create in a future step
-          image:
+          image: us-docker.pkg.dev/w09-project/mike-api/api-tests
           ports:
             - containerPort: 3000
           resources:
